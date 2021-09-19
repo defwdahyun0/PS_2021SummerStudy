@@ -1,6 +1,3 @@
-input = "hello my name is sparta"
-
-
 def find_max_occurred_alphabet(string):
     alphabet_array = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s",
                       "t", "u", "v", "x", "y", "z"]
@@ -20,5 +17,7 @@ def find_max_occurred_alphabet(string):
     return max_alphabet
 
 
-result = find_max_occurred_alphabet(input)
-print(result)
+result = find_max_occurred_alphabet
+print("정답 = a 현재 풀이 값 =", result("Hello my name is sparta"))
+print("정답 = a 현재 풀이 값 =", result("Sparta coding club"))
+print("정답 = s 현재 풀이 값 =", result("best of best sparta"))
